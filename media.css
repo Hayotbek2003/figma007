@@ -1,0 +1,72 @@
+@media screen and (max-width:1000px) {
+      .s4cards{
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .card-rigth{
+        right:-130px;
+      }
+}
+@media screen and (max-width:850px) {
+    nav ul{
+        display: none;
+    }
+    .meniu{
+        display: block;
+    }
+    .card-rigth{
+        right:-100px;
+      }
+}
+@media screen and (max-width:540px) {
+    .header h1{
+        font-size: 50px;
+    }
+    .header h2{
+        font-size: 50px;
+    }
+    .header p{
+        margin: 30px 0;
+    }
+    .section2 h1{
+        font-size: 30px;
+    }
+    .section2 h3{
+        font-size: 15px;
+    }
+    .section4 h1{
+        text-align: center;
+        font-size: 30px;
+       
+    }
+    .s5card{
+        width: 100%;
+     
+    flex-shrink: 0;
+    
+    }
+     
+}
+@media screen and (max-width:540px) {
+    .card{
+        padding: 20px;
+    }
+    .card-left{
+        left: 0;
+    }
+    .card-rigth{
+      right:0;
+    }
+    .s4card{
+        width: 200%;
+       
+        
+       
+    }
+}
+@media screen and (max-width:360px) {
+    .s3card-b p{
+        font-size: 18px;
+    
+    }
+}

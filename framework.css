@@ -1,0 +1,43 @@
+.center{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.ccenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.btn{
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.cl-fff{
+    color: #fff;
+}
+.cl-000{
+    color: #000;
+}
+.cl-green{
+    color: rgb(27, 163, 27);
+}
+.text-center{
+    text-align: center;
+}
+.bg-green{
+    background-color: rgb(27, 163, 27);
+}
+.bg-grey{
+    background-color: rgb(175, 171, 171);
+}
+
